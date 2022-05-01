@@ -1,0 +1,46 @@
+#box1{
+    border: 15px solid #fd0606;
+    width: 70%;
+    height: 400px;
+    margin: 0 auto;
+    /* background-image: url("rasm.jpg"); */
+    background-size: cover;
+    /* background-origin: border-box; */
+    background-color: aqua;
+    background-clip: padding-box;
+    padding: 10px;
+}
+.h1{
+    padding: 15px;
+    background-clip: padding-box;
+}
+p:nth-child(5){
+    color: rgb(235, 20, 20);
+}
+
+.check:checked{
+    outline:2px solid #fd0606;
+}
+.check:not(checked){
+    outline:2px solid #1f06fd;
+}
+
+.one p::first-letter{
+    font-size: 30px;
+}
+/* .one p::first-line{
+    font-size: 50px;
+} */
+
+::selection{
+    color: #fff;
+    background-color: #000;
+}
+
+
+.footer strong::before{
+    content: "Uzbek coders";
+}
+.footer strong::after{
+    content: ".09.03"
+}

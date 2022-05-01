@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+   
+}
+
+.box{
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    margin-top: 70px;
+    background-color: blue;
+    position: relative;
+    border-radius: 15px;
+}
+
+.images{
+     background-image: url("../iPhone.jpg");
+     background-size: cover;
+     width: 50%;
+     position: relative;
+     
+
+    
+}
+
+h1{
+     
+}
+
+.p{
+    text-align: right;
+    color: #fff;
+    position: absolute;
+    left: 200px;
+}

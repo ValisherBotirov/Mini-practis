@@ -1,0 +1,65 @@
+*{
+    color: rgb(76, 0, 148);
+    /* background-color: rgb(173, 173, 169); */
+}
+body{
+    padding: 0;
+    margin: 0;   
+}
+h1{
+    text-align: center;
+    color: black;
+    /* display: none; */
+    /* tepadagi kodni o'qitmay turadi */
+}
+.block{
+    float: left;
+    width: 33.3%;
+    color:rgb(1, 1, 255);
+    /* border: 2px black solid;  */
+    box-sizing: border-box;
+    padding: 10px;
+    
+   
+}
+.clr{
+    clear: both;
+}
+.foo *{
+    display: inline;
+}
+.too{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: green;
+    display: inline-block;
+    margin: 0;
+}
+.pos{
+    width: 300px;
+    height: 300px;
+    background-image :  url("rasm.jpg") ;
+    
+    position: relative;
+    top: -100px; right: -50px;
+}
+.pos h2{
+    /* background-color: red; */
+    position: absolute;
+    top: 50%; left: 20%;
+}
+.header{
+    /* position: fixed; */
+   
+    float: right;
+    width: 20%;
+    padding: 2px;
+    margin: 10px;
+    background-color: rgba(24, 228, 109, 0.979);
+    border: 1px solid black;
+    text-decoration: unset;
+}
+.one{
+    clear: both;
+}

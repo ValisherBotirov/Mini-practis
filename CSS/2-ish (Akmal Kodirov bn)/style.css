@@ -1,0 +1,27 @@
+h1:hover{
+    text-decoration: underline;
+    text-align: center;
+    
+
+
+}
+div>p{
+    color: red;
+}
+span>p{
+    color: blue;
+}
+/*  div > p degani div elementi p ni otasi degani */
+.p{
+    color: red;
+    border: 2px solid black;
+    background-color: yellow;
+    padding: 10px;
+    margin: 0px;
+   
+}
+body{
+    background-image: url("rasm.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}

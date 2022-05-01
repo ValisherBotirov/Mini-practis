@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Table of table</title>
+</head>
+<body>
+    <h1 align="center">8-dars.Jadvallarga oid teglar</h1>
+
+    <table border="3" align="center" background="kema.jpg" bordercolor="black"
+    cellpadding="10" cellspacing="5" cols="2" rows="2" >
+        <!--"table"tegi "align""background""bordercolor"kabi atributlari bor
+        "cellpadding"atributini vazivasi yozuv va yacheyka orasidagi masofani bildiradi
+    "cellspacing"atributini vazifasi yacheyka va jadval orasidagi masofani
+belgilab beradi-->
+
+        <thead bgcolor="orange" align="center" >
+            <caption >Jadval</caption> <!--"caption"tegi jadvalni nomlaydi-->
+            <!-- <colgroup widht="20%"><col widht="50%"></col></colgroup> -->
+                <tr>
+                        <td >ism</td>
+                        <td bgcolor="yellow" align="center">fama</td>
+               </tr>
+        </thead>
+
+        <tbody bgcolor="green">
+                <tr>
+                        <th bgcolor="blue">valisher</th>
+                        <th abbr="welcome">botirov</th>
+              </tr>
+            </table>          
+              <table border="2">
+                  <thead>
+                      <tr>
+                        <td>yacheyka</td>
+                        <td>yacheyka2</td>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr bgcolor="red">
+                          <th abbr="welcome"  colspan="2"> yacheyka</th>
+            <!--"colspan"atributini vazifasi yacheykalarni birlashtirib beradi-->
+                      </tr>
+                  </tbody>
+              </table><br>
+              <table border="5">
+                  <tr>
+                      <th rowspan="2">yacheyka</th>
+                      <th colspan="2">jadval</th>
+                      <th colspan="2" >jadval4</th>
+                  </tr>
+                  <tr>
+                      <td>yacheyka2</td>
+                      <td>yacheyka3</td>
+                      <td>jadval2</td>
+                      <td>jadval3</td>
+                  </tr>
+              </table>
+                
+
+        </tbody>
+       
+       
+    </table><br>
+  <hr color="black" size="5">
+  <h1 align="center" bgcolor="red">9-dars.Formalar bilan ishlash (1-qism)</h1>
+
+  <form action="index.php" accept-charset="windows-1251">
+      <!--"accep-charsed"atributi serverga jo'natilayotgan axborot
+    kadirovkasini o'rnatadi-->
+    <!--"action"atributi esa serverga jo'natilayotgan malumotlarni 
+    qaysi sahifa orqali qayta ishlanishi kerakligi beriladi. Odatda
+barcha malumotlar PHP dasturlash tilida qayta tahrirlanadi-->
+
+      <label for="name">Ism</label>
+      <input type="text" id="name" placeholder="ismingizni kiriting"><br>
+      <label for="img">Rasm</label>
+      <input type="images"  src="kema.jpg" id="img"><br>
+     <input type="text"disabled >
+  </form><br><br>
+
+  <form action="index.php" name="Forma" method="GET"></form>
+  <table  border="1" bgcolor="#ddffdd" align="center">
+      <tr>
+          <td align="lift"><input type="text" name="search" size="50"
+            placeholder="Qidish tizimi">
+            <input type="submit" value="Qidirish tizimi"><br>
+            <input type="radio" name="site">Chrome 
+            <input type="radio" name="site">Google 
+            <input type="radio" name="site">Brauzer <br>
+            <select  size="2" multiple>
+                <option value="a">Google</option>
+                <option value="a">Chrome</option>
+                <option value="a">Brauzer</option>
+                <option value="a">Internet exployer</option>
+            </select>
+          </td>
+      </tr>
+  </table> <br>
+
+
+
+
+
+  <hr color="black" size="4">
+  <h1 align="center"> <font color="black">10-dars.Formalar bialn ishlash (2-qism)</h1>
+
+  <p align="center"><font color="blue" size="5" face ="verdana">Registratsiya</font></p>
+
+    <form action="index.php" method="POST"></form> 
+    <table border="1" bgcolor="#ddffdd" align="center">
+        <tr>
+            <td align="left">
+            <!-- <font color="red" size="2" face="verdana">Loginni kiriting</font> -->
+            <label for="ism"><font color="red" size="2" face="verdana">Loginni kiriting</font> </label>
+            <input type="text" name="search" size="30" placeholder="use name" id="ism">
+            <br><br>
+            <label for="parol"> <font color="red" size="2" face="verdana">Parolni kiriting</font></label>
+            <input type="password" id="parol" name="password" placeholder="password" size="15">
+            <br>
+            <hr color="green">
+
+            <fieldset title="masalan"> <!--bu teg ramkaga olib beradi-->
+                <legend align="center"> Shaxsiy malumotlar</legend> <!--buni esa ramkani ichiga yozish uchun joy ajratib beradi-->
+                <font color="red" size="2" face="verdana">Jinsingiz?</font><br>
+                <input type="radio" name="jins" checked>Erkak  <br>
+                <input type="radio" name="jins">Ayol
+                <br>
+                <hr color="green" size="2" width="100%">
+                <br>
+                <label for="age"> <font color="red" size="2" face="verdana" >Yoshingiz?</font> </label>
+                <select name="yosh" id="age" multiple size="1">
+                    <option value="age">10</option>
+                    <option value="age">11</option>
+                    <option value="age">12</option>
+                    <option value="age">13</option>
+                    <option value="age">14</option>
+                    <option value="age">15</option>
+                    <option value="age">16</option>
+                    <option value="age">17</option>
+                    <option value="age">18</option>
+                    <option value="age" selected>19</option> <!--"selected" atributi
+                    yoshni avtomatik tanlab turadi-->
+                    <option value="age">20</option>
+                    <option value="age">21</option>
+                    <option value="age">22</option>
+                    <option value="age">23</option>
+                    <option value="age">24</option>
+                    <option value="age">25</option>
+                    <option value="age">26</option>
+                    <option value="age">27</option>
+                    <option value="age">28</option>
+                    <option value="age">29</option>
+                    <option value="age">30</option>
+                </select>
+                <br>
+                <hr color="green" size="2">
+                <font color="red" size="2" face="verdana">Kasbingiz?</font>
+                <select name="kasb" id="" multiple size="1">
+                    <option value="a">Dasturchi</option>
+                    <option value="b" selected>Investor</option>
+                    <option value="a">O'qituvchi</option>
+                    <br> 
+                    <hr color="red" size="5"> <br>
+                    <br><br>
+                    <textarea name="matn" id="" cols="60" rows="3" wrap="soft">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Ullam, repudiandae incidunt voluptas eaque explicabo, 
+                     exercitationem voluptate perferendis nam debitis earum
+                     natus! Maiores, velit id! Expedita, fuga. Ut temporibus
+                     accusantium corporis ullam? Non sit, at, explicabo natus 
+                     ratione rem beatae nisi sapiente dolorem tenetur in quo 
+                     qui cumque earum exercitationem vero quaerat, nulla ipsa 
+                     adipisci! Exercitationem quam id excepturi molestias 
+                     aliquid similique error suscipit natus laborum delectus 
+                     itaque sunt, expedita laboriosam et laudantium repudiandae 
+                     atque facilis animi ipsam est? Voluptatibus iusto adipisci
+                     minus fugiat accusamus iste totam ex illo repudiandae esse,
+                     aliquam earum ad perspiciatis quasi unde eos quod similique
+                     voluptatum.
+                    </textarea>
+                   
+                    
+                </select>
+                
+            </fieldset>
+            <center><input type="button" value="OK"></center>
+            </td>
+        </tr>
+
+    </table>
+  
+  
+
+
+
+</body>
+</html>
