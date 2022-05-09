@@ -259,3 +259,12 @@ footer {
   padding-bottom: 40px 0;
   margin: 30px 0;
 }
+
+/* MAC sahifasi uchun */
+
+.bannerMac {
+  width: 100%;
+  height: 80vh;
+  background-image: url("/icons/Windows/heroslider.jpeg");
+  background-size: cover;
+}
