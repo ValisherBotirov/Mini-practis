@@ -59,3 +59,14 @@ header {
 .headerIcon li {
   padding-top: 2px !important;
 }
+
+/* banner */
+
+.banner {
+  width: 100%;
+  height: 80vh;
+  background-image: url("/icons/Windows/heroslider.jpeg");
+  background-size: cover;
+}
+
+/* footer */
