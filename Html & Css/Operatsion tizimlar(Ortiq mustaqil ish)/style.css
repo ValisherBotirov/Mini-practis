@@ -268,3 +268,41 @@ footer {
   background-image: url("/icons/Mac/Heroslider.jpeg");
   background-size: cover;
 }
+
+.boxAbout {
+  display: inline-flex;
+  margin: 40px 0;
+}
+
+video {
+  width: 50%;
+  display: inline-block;
+}
+
+.aboutText {
+  width: 50%;
+  display: inline-block;
+  margin-left: 45px;
+  margin-top: 20px;
+}
+
+.aboutText h2 {
+  font-size: 30px;
+  text-transform: capitalize;
+  padding: 10px 0;
+  line-height: 42px;
+}
+
+.aboutText p {
+  line-height: 25px;
+}
+
+.btnHeader {
+  height: 30px;
+  width: 120px;
+  display: inline-block;
+  margin-top: 20px;
+  border: none;
+  background-color: black;
+  color: white;
+}
